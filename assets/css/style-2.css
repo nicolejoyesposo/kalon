@@ -1,0 +1,97 @@
+ 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: black;
+}
+
+.test {
+	border: 1px solid black;
+}
+ 
+#bg-color {
+	background-color: white; /*cream*/
+}
+
+
+/*BANNER*/
+#bg-banner {
+	background: url("../images/test.jpg");
+	height: 60vh;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+/*NAVBAR*/
+.nav-item .nav-link{
+	padding-top: 10px;
+	color: white; /*LIGHT BLUE GREY*/
+	margin: 0 5px 0 5px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar {
+	color: white; 
+  	letter-spacing: 1px;  
+ 	background: rgb(0, 0, 0); /* fallback color */
+ 	background: rgba(0, 0, 0, 0.5);
+}
+
+button .navbar-toggler-icon {
+	background-color: #3E4551;
+}
+
+
+.diy-col {
+	height: 700px;
+	margin-top: 100px;
+}
+
+.col-tall {
+	height: 500px;
+}
+
+.col-short {
+	height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+
+

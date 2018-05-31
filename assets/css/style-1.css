@@ -1,0 +1,125 @@
+ 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: black;
+}
+
+.test {
+	border: 1px solid black;
+}
+ 
+#bg-color {
+	background-color: white; /*cream*/
+}
+
+
+/*BANNER*/
+#bg-banner {
+	background: url("../images/test.jpg");
+	height: 60vh;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+/*NAVBAR*/
+.nav-item .nav-link{
+	padding-top: 10px;
+	color: white; /*LIGHT BLUE GREY*/
+	margin: 0 5px 0 5px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar {
+	color: white; 
+  	letter-spacing: 1px;  
+ 	background: rgb(0, 0, 0); /* fallback color */
+ 	background: rgba(0, 0, 0, 0.5);
+}
+
+button .navbar-toggler-icon {
+	background-color: #3E4551;
+}
+
+/*MAIN CONTENT*/
+.main-container {
+	margin-top: 100px;
+}
+
+.main-left {
+	height: 1500px;
+}
+
+.main-right {
+	height: 1500px;
+}
+
+/*LEFT SIDE*/
+.img-top {
+	width: 100%;
+	height: 100%;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background: black;
+}
+
+.left-row {
+	height: 1500px;
+	margin-right: 10px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+
+/*RIGHT SIDE*/
+.sub-right-top {
+	height: 350px;
+}
+
+.sub-right-middle {
+	height: 300px;
+	margin-top: 80px;
+}
+
+.sub-right-bottom {
+	height: 300px;
+	margin-top: 80px;
+}
+
+.img-adjust {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.text-adjust {
+	background-color: #ff847c;
+}
+
+
+.lifestyle-img {
+	height: 250px;
+}
+
+
+
+
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+
+
